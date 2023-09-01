@@ -1,0 +1,40 @@
+baseURL: ""
+languageCode: "en-us"
+title: "BB & ME "
+theme: "PaperMod"
+
+params:
+  homeInfoParams:
+    Title: "Hello Stranger"
+    Content: "Welcome to my channel. Here you'll find a lot of fun."
+    socialIcons:
+      name: "facebook"
+      url: "https://facebook.com/"
+      name: "github"
+      surl: "https://github.com/"
+
+  cover:
+    linkFullImages: true
+
+  ShowBreadCrumbs: true
+
+  ShowReadingTime: true
+
+  ShowShareButtons: true
+
+  ShowPostNavLinks: true
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /Tags/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
